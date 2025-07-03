@@ -1,12 +1,82 @@
-# React + Vite
+# 🎉 EventPal - Community Event Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **EventPal**, your go-to platform to **create**, **explore**, and **manage community events**. Whether it's a college workshop, esports tournament, or cultural night — EventPal brings them all together in one retro-styled, responsive interface.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [https://event-pal-community-event-discovery.vercel.app/](https://event-pal-community-event-discovery.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 Retro-themed UI with a pixel-perfect calendar
+- 📅 FullCalendar integration to view events
+- 📝 Add new events with genre and category selection
+- 🎯 Filter and sort events based on multiple criteria
+- 📱 Fully responsive for mobile and desktop
+- ⚙️ Uses JSON Server as a mock backend for development
+
+---
+
+## 🚀 Tech Stack
+
+- React + Vite
+- TailwindCSS
+- FullCalendar
+- React Hook Form
+- JSON Server
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/event-pal.git
+cd event-pal
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the JSON server (runs on port 3000)
+npx json-server --watch ./src/data/events.json --port 3000
+
+# 4. In a separate terminal, start the frontend
+npm run dev
+```
+
+⚠️ Make sure `db.json` is present in your project root (it stores event data).
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── Sidebar.jsx
+│   ├── CalendarPage.jsx
+│   ├── AddEventPage.jsx
+│   └── Cards/
+├── constants/
+│   ├── genreoptions.js
+│   ├── MonthsColor.js
+│   └── label.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📡 Deployment
+
+Frontend is deployed on **Vercel**  
+Backend (JSON Server) can be deployed on **Render**, **Railway**, or run locally.
+
+---
+
+## 🧑‍💻 Author
+
+**Hemant Yadav**
+
+If you like this project, feel free to ⭐ the repo and [share feedback](https://event-pal-community-event-discovery.vercel.app/)!  
