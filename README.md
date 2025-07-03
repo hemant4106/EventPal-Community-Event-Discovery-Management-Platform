@@ -12,7 +12,7 @@ Welcome to **EventPal**, your go-to platform to **create**, **explore**, and **m
 - 📅 FullCalendar integration to view events
 - 📝 Add new events with genre and category selection
 - 🎯 Filter and sort events based on multiple criteria
-- 📱 Fully responsive for mobile and desktop
+- 📱 Fully responsive for mobile and desktop(currently not responsive)
 - ⚙️ Uses JSON Server as a mock backend for development
 
 ---
@@ -28,10 +28,9 @@ Welcome to **EventPal**, your go-to platform to **create**, **explore**, and **m
 ---
 
 ## 🛠️ How to Run Locally
-
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/event-pal.git
+git clone https://github.com/hemant4106/EventPal-Community-Event-Discovery-Management-Platform.git
 cd event-pal
 
 # 2. Install dependencies
@@ -44,7 +43,7 @@ npx json-server --watch ./src/data/events.json --port 3000
 npm run dev
 ```
 
-⚠️ Make sure `db.json` is present in your project root (it stores event data).
+⚠️ Make sure `events.json` is present in your project /data (it stores event data).
 
 ---
 
