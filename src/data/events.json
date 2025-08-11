@@ -279,8 +279,90 @@
       "EndTime": "22:15",
       "Description": "Join us for an exciting webinar event filled with surprises!",
       "Organizer": "Eventify"
+    },
+    {
+      "id": "c610",
+      "TitleOfEvent": "hemant",
+      "Location": "akola",
+      "isPaid": "Paid",
+      "Genre": "education_professional",
+      "Category": "workshop",
+      "isOnline": "Offline",
+      "Date": "2025-07-16",
+      "StartTime": "19:34",
+      "EndTime": "19:34",
+      "Description": "maso",
+      "Organizer": "hemanr"
+    },
+    {
+      "id": "0ed1",
+      "TitleOfEvent": "BirthDay Party",
+      "Location": "Delhi",
+      "isPaid": "Free",
+      "Genre": "social_lifestyle",
+      "Category": "party",
+      "isOnline": "Offline",
+      "Date": "2025-07-05",
+      "StartTime": "02:15",
+      "EndTime": "04:18",
+      "Description": "Throwing a boom party",
+      "Organizer": "Hemant"
+    },
+    {
+      "id": "c300",
+      "TitleOfEvent": "birtday party",
+      "Location": "akola",
+      "isPaid": "Free",
+      "Genre": "social_lifestyle",
+      "Category": "party",
+      "isOnline": "Offline",
+      "Date": "2025-07-05",
+      "StartTime": "11:44",
+      "EndTime": "11:44",
+      "Description": "birthday party",
+      "Organizer": "hemant"
+    },
+    {
+      "id": "fe99",
+      "TitleOfEvent": "Dance Faceoff",
+      "Location": "Mumbai",
+      "isPaid": "Paid",
+      "Genre": "arts_culture",
+      "Category": "dance_show",
+      "isOnline": "Offline",
+      "Date": "2025-07-04",
+      "StartTime": "12:50",
+      "EndTime": "12:50",
+      "Description": "dance batlle",
+      "Organizer": "hemant"
+    },
+    {
+      "id": "abd7",
+      "TitleOfEvent": "Toppers-Goodbye",
+      "Location": "DELHI",
+      "isPaid": "Free",
+      "Genre": "college_specific",
+      "Category": "freshers_goodbye",
+      "isOnline": "Offline",
+      "Date": "2025-08-25",
+      "StartTime": "05:00",
+      "EndTime": "06:00",
+      "Description": "Toppers Unite",
+      "Organizer": "DPS"
+    },
+    {
+      "id": "0ca4",
+      "TitleOfEvent": "iiti soc ",
+      "Location": "iit indore",
+      "isPaid": "Paid",
+      "Genre": "tech_innovation",
+      "Category": "coding_contest",
+      "isOnline": "Online",
+      "Date": "2025-08-10",
+      "StartTime": "15:45",
+      "EndTime": "14:46",
+      "Description": "soc presentation for softwar",
+      "Organizer": "gdsc"
     }
-    
-    
   ]
 }
