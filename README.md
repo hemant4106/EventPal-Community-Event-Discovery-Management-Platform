@@ -1,12 +1,22 @@
-# React + Vite
+# EventPal - Community Event Discovery & Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EventPal is a simple platform to discover and manage community events. It uses **JSON Server** to provide a mock backend API and **React + Vite** for the frontend development environment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started Locally
 
-## Expanding the ESLint configuration
+Run the following commands in order:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# 1. Clone the repository
+git clone https://github.com/hemant4106/EventPal-Community-Event-Discovery-Management-Platform.git
+
+# 2. Move into the project directory
+cd EventPal-Community-Event-Discovery-Management-Platform
+
+# 3. Start the backend (JSON Server)
+json-server --watch ./src/data/events.json
+
+# 4. In a separate terminal, start the frontend (Vite)
+npm run dev
